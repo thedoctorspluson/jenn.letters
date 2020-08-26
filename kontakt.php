@@ -11,7 +11,7 @@ include('meta.php');
         ?>
    
     <div class="inhalt"><p><h3>Hier kannst du Kontakt mit mir aufnehmen!</h3>
-        Hier entsteht ein Kontaktformular.
+        Hier entsteht ein Kontaktformular. lala
     </p>
     <div class="inhaltboxen">
         <div class="box">
