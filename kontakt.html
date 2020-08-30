@@ -27,17 +27,19 @@
         <div class="box">
           <form method="post" action="kontakt.html" data-netlify="true">
           <label for="Name"><b>Name:</b></label><br>
-          <input type="text" id="Name" name="Name"><br><br>
+          <input type="text" id="Name" name="Name" placeholder="Namen eingeben..."><br><br>
           
           <label for="Email"><b>E-Mail:</b></label><br>
-          <input type="text" id="Email" name="Email"><br><br>
+          <input type="text" id="Email" name="Email" placeholder="Email eingeben..."><br><br>
           
           <label for="Betreff"><b>Betreff:</b></label><br>
-          <input type="text" id="Betreff" name="Betreff"><br><br>
+          <input type="text" id="Betreff" name="Betreff" placeholder="Betreff eingeben..."><br><br>
           
           <label for="Nachricht"><b>Nachricht:</b></label><br>
-          <textarea id="Nachricht" name="Nachricht" rows="10" cols="50"></textarea> <br><br>
+          <textarea id="Nachricht" name="Nachricht" rows="10" cols="50" placeholder="Was kann ich für Sie tun?"></textarea> <br><br>
           
+          <input type="checkbox" name="datenschutz" id="datenschutz" required>
+          Ich bin mit der Verarbeitung meiner Daten einverstanden. <br><br>
           <input type="submit" name="submit">
           </form>
         </div>
@@ -48,7 +50,7 @@
   </div>
   <div class="footer">
     <a href="#">Impressum</a>
-    <a href="#">Datenschutz</a>
+    <a href="datenschutz.html">Datenschutz</a>
   
   </div>
   </div>
