@@ -128,11 +128,13 @@ h5{
 .footer a:hover{
     color: rgb(254, 222, 125);
 }
+
 .textfeld{
     text-align:left;
     margin:10%;
     margin-top:3%;
 }
+
 #navbar{  
     padding: 0.5em;
     padding-left: 55vw;
@@ -149,20 +151,18 @@ h5{
     padding-top: 20px;
     text-decoration: underline;
     text-decoration-color: rgb(254, 222, 125);
-    
 }
+
 #navbar a:hover{
     color: rgb(254, 222, 125);
-
 }
-
 
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
-  }
-  
+}
+
   input[type=text], select, textarea {
     font-family: jennysfont;
     font-variant: small-caps;
@@ -176,8 +176,7 @@ h5{
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
+}
 
   input[type=submit] {
     font-family: jennysfont;
@@ -191,13 +190,83 @@ h5{
     border-radius: 4px;
     cursor: pointer;
   }
-  
- 
+
   input[type=submit]:hover {
     background-color: rgb(254, 222, 125);
   }
   
   ::placeholder { 
     color: lightgray;
-    
+  }
+
+.mobile-container{
+    display:none;
+}
+  @media only screen and (max-width: 900px) {
+    #navbar{
+        display:none;
+    }
+    .headpic{
+        display:none;
+    }
+    .mobile-container {
+        display:block;
+        
+        
+        background-color: rgb(104, 187, 204);
+      }
+      
+      .topnav {
+        
+        
+        position: relative;
+      }
+      
+      .topnav #myLinks {
+        display: none;
+        background-color:rgb(117, 155, 197);
+      }
+      .burger{
+        width: 35px;
+        height: 5px;
+        background-color:rgb(254, 222, 125);;
+        margin: 6px;
+      }
+      .topnav a.active {
+          font-size:34pt;
+      }
+      .topnav a {
+        color: white;
+        padding: 16px;
+        
+        text-decoration: none;
+        font-size: 25pt;
+        display: block;
+       
+      }
+      
+      .topnav a.icon {
+        
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+   
+      .footer{    
+      
+        padding-left: 30vw;
+        
+    }
+    .inhaltboxen3{
+      
+        border-style: none;
+      
+       
+    }
   }
