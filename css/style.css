@@ -203,6 +203,9 @@ h5{
     display:none;
 }
   @media only screen and (max-width: 1500px) {
+      body{
+          font-size: 25pt;
+      }
     #navbar{
         display:none;
     }
@@ -212,7 +215,7 @@ h5{
     .mobile-container {
         display:block;
         
-        
+       
         background-color: rgb(104, 187, 204);
       }
       
@@ -227,20 +230,20 @@ h5{
         background-color:rgb(117, 155, 197);
       }
       .burger{
-        width: 35px;
-        height: 5px;
+        width: 50px;
+        height: 8px;
         background-color:rgb(254, 222, 125);;
-        margin: 6px;
+        margin: 10px;
       }
       .topnav a.active {
-          font-size:34pt;
+          font-size:55pt;
       }
       .topnav a {
         color: white;
-        padding: 16px;
+        padding: 30px;
         
         text-decoration: none;
-        font-size: 25pt;
+        font-size: 40pt;
         display: block;
        
       }
@@ -257,10 +260,16 @@ h5{
         background-color: #ddd;
         color: black;
       }
+      .topnav a.active:hover {
+        background-color: rgb(104, 187, 204);
+    }
+     .topnav a.icon:hover{
+        background-color: rgb(104, 187, 204);
+     }
    
       .footer{    
-      
-        padding-left: 30vw;
+       font-size: 30pt;
+        padding-left: 40vw;
         
     }
     .inhaltboxen3{
