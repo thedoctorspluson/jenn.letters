@@ -380,6 +380,7 @@ h5{
       .checkmark {
           height:35px;
           width: 35px;
+          left:0;
           
       }
       .containercheck .checkmark:after {
