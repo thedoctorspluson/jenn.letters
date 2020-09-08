@@ -130,6 +130,10 @@ h5{
     
 }
 .box4 {
+
+    font-family: 'Syne', sans-serif;
+    font-weight: normal;
+    font-size: 19pt;
     flex: 0 1 auto;
     margin: 0;
     background-color: rgb(68, 114, 154);
