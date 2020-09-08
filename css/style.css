@@ -173,9 +173,11 @@ h5{
     flex: 0 1 auto;
     margin: 0.5vw;
     
+    
 }
 .bild{
     width: 36.5vh;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .jennbild{
     background-image: url(../img/jenn.jpg);
