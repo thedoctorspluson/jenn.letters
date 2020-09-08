@@ -16,6 +16,16 @@ body{margin:0px;
     font-size: 25pt;
     
 }
+h2{
+    display:inline-block;
+    margin: 0.1em;
+    font-family: jennysfont;
+    font-variant: small-caps;
+    font-size: 50pt;
+    color: rgb(255, 180, 0);
+    
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 h3{
     font-family: jennysfont;
     font-variant: small-caps;
@@ -75,7 +85,7 @@ h5{
     align-items:flex-start;
     align-content: center;
     margin: 2vw;
-    margin-top: 5vh;
+    margin-top: 15vh;
     
 }
 .inhaltboxen2{
@@ -123,11 +133,11 @@ h5{
     flex: 0 1 auto;
     margin: 0;
     background-color: rgb(68, 114, 154);
-    height:34vh;
+    height:30vh;
     width:44vw;
     padding-left: 3vw;
     padding-right: 3vw;
-    padding-top: 3vh;
+    padding-top: 7vh;
     padding-bottom: 3vh;
 }
 .box4bild1 {
@@ -219,7 +229,7 @@ h5{
 #navbar{  
     padding: 0.5em;
     padding-left: 55vw;
-    background-color: rgb(104, 175, 236);
+    background-color: rgb(110, 158, 186);
     margin-bottom: 5vh;
 }
 
