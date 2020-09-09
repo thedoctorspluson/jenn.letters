@@ -52,6 +52,51 @@ h5{
     background-size: 100%;
   
 }
+#navbar{  
+    padding: 0.5em;
+    display:flex;
+    background-color: rgb(110, 158, 186);
+    margin-bottom: 5vh;
+    font-family: jennysfont;
+    text-transform:uppercase;
+    font-weight: bold;
+    justify-content:flex-end;   
+}
+
+#navbar a{
+    flex: 0 1 auto;
+    text-decoration:none;
+    color: white;
+    
+    font-size: 25pt;
+    letter-spacing: 0.1em;
+    padding: 0.3em;
+    padding-right:1em;
+    text-decoration: underline;
+    text-decoration-color: rgb(254, 222, 125);
+}
+#social {
+    flex: 0 1 auto;
+    margin-right: 50vw;
+    height:25pt;
+   
+}
+#facebook {
+    flex: 0 1 auto;
+    margin-right: 0.6em;
+    height:25pt;
+   
+}
+
+#navbar a:hover{
+    color: rgb(254, 222, 125);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 .wrap{
  
 }
@@ -131,8 +176,8 @@ h5{
 }
 .box4 {
 
-    font-family: 'Syne', sans-serif;
-    font-weight: normal;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
     font-size: 19pt;
     flex: 0 1 auto;
     margin: 0;
@@ -230,34 +275,7 @@ h5{
     font-size:16pt;
 }
 
-#navbar{  
-    padding: 0.5em;
-    padding-left: 55vw;
-    background-color: rgb(110, 158, 186);
-    margin-bottom: 5vh;
-}
 
-#navbar a{
-    text-decoration:none;
-    color: white;
-    font-variant: small-caps;
-    font-size: 25pt;
-    letter-spacing: 0.1em;
-    padding-left: 3vw;
-    padding-top: 20px;
-    text-decoration: underline;
-    text-decoration-color: rgb(254, 222, 125);
-}
-
-#navbar a:hover{
-    color: rgb(254, 222, 125);
-}
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
 
 .containercheck{
     display: block;
@@ -514,6 +532,16 @@ h5{
         padding-right: 10vw;
         padding-top: 3vh;
         padding-bottom: 3vh;
+    }
+    #social {
+        
+        height:25pt;
+       
+    }
+    #facebook {
+        
+        height:25pt;
+       
     }
     
   }
