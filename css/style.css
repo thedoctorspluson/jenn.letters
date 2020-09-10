@@ -410,174 +410,169 @@ h5{
 .mobile-container{
     display:none;
 }
-  @media only screen and (max-width: 500px) {
-      body{
-          font-size: 35pt;
-      }
-    #navbar{
-        display:none;
-    }
-    .headpic{
-        display:none;
-    }
-    .mobile-container {
-        display:block;
-        
-       
-        background-color: rgb(104, 175, 236);
-      }
-      
-      .topnav {
-        
-        font-family: jennysfont;
-        text-transform:uppercase;
-        font-weight: bold;
-        position: relative;
-        margin-bottom:3vh;
-      }
-      
-      .topnav #myLinks {
-        display: none;
-        background-color:rgb(68, 114, 154);
-      }
-      .burger{
-        width: 50px;
-        height: 8px;
-        background-color:rgb(254, 222, 125);;
-        margin: 10px;
-      }
-      .topnav a.active {
-          font-size:55pt;
-      }
-      .topnav a {
-        color: white;
-        padding: 30px;
-        
-        text-decoration: none;
-        font-size: 40pt;
-        display: block;
-       
-      }
-      
-      .topnav a.icon {
-        
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
-      
-      .topnav a:hover {
-        background-color: #ddd;
-        color: black;
-      }
-      .topnav a.active:hover {
-        background-color: rgb(104, 175, 236);
-    }
-     .topnav a.icon:hover{
-        background-color: rgb(104, 175, 236);
-     }
-   
-      .footer{   
-          
-       font-size: 30pt;
-        padding-left: 37vw;
-        margin-bottom: 0px;
-        margin-top: 3vh;
-        
-        
-    }
-    .inhaltboxen3{
-      
-        border-style: none;
-      
-       
-    }
-    .inhaltboxen2{
-    
-        display:flex;
-        flex-direction:row;
-        flex-wrap:wrap;
-        justify-content: space-evenly;
-        align-items:flex-start;
-        align-content: center;
-        margin: 2vw;
-        margin-top: 2vh;
-        max-height: none;
-       
-    }
 
-    input[type=text], select, textarea {
-        
-        font-size: 30pt;
-     
-    }
+
+@media only screen and (max-width: 750px) {
+
+body{
+    font-size: 35pt;
+}
+
+#navbar{
+    display:none;
+}
+
+.headpic{
+    display:none;
+}
+
+.mobile-container {
+display:block;
+background-color: rgb(104, 175, 236);
+}
     
-      input[type=submit] {
-      
-        font-size: 35pt;
-        padding: 20px 30px;
-        margin: 60px;
+.topnav {
+font-family: jennysfont;
+text-transform:uppercase;
+font-weight: bold;
+position: relative;
+margin-bottom:3vh;
+}
     
-      }
-      .checkmark {
-          height:35px;
-          width: 35px;
-          left:0;
-          
-      }
-      .containercheck .checkmark:after {
-        left: 10px;
-        top: 3px;
-        width: 10px;
-        height: 20px;
-        border: solid white;
-        border-width: 0 3px 3px 0;
-        -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        transform: rotate(45deg);
-      }
-      .box4 {
-       
-        height:24vh;
-        width:80vw;
-        padding-left: 10vw;
-        padding-right: 10vw;
-        padding-top: 3vh;
-        padding-bottom: 3vh;
-    }
-    .box4bild1 {
-        height:20vh;
-        width:100vw;
-    }
-    .box4bild2 {
-      
-        width:100vw;
-        height:20vh;
-    }
-    .box4bild3 {
-       
-        height:60vh;
-        width:100vw;
-    }
-    .box2 {
-       
-        height:54vh;
-        width:80vw;
-        padding-left: 10vw;
-        padding-right: 10vw;
-        padding-top: 3vh;
-        padding-bottom: 3vh;
-    }
-    #social {
-        
-        height:25pt;
-       
-    }
-    #facebook {
-        
-        height:25pt;
-       
-    }
+.topnav #myLinks {
+display: none;
+background-color:rgb(68, 114, 154);
+}
+
+.burger{
+width: 50px;
+height: 8px;
+background-color:rgb(254, 222, 125);;
+margin: 10px;
+}
+
+.topnav a.active {
+    font-size:55pt;
+}
+
+.topnav a {
+color: white;
+padding: 30px;
+text-decoration: none;
+font-size: 40pt;
+display: block;
+}
+
+.topnav a.icon {
+display: block;
+position: absolute;
+right: 0;
+top: 0;
+}
     
-  }
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+.topnav a.active:hover {
+background-color: rgb(104, 175, 236);
+}
+
+.topnav a.icon:hover{
+background-color: rgb(104, 175, 236);
+}
+
+.footer{     
+font-size: 30pt;
+padding-left: 37vw;
+margin-bottom: 0px;
+margin-top: 3vh;
+}
+
+.inhaltboxen3{   
+border-style: none;
+}
+
+.inhaltboxen2{
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+justify-content: space-evenly;
+align-items:flex-start;
+align-content: center;
+margin: 2vw;
+margin-top: 2vh;
+max-height: none;
+}
+
+input[type=text], select, textarea { 
+font-size: 30pt;
+}
+
+input[type=submit] {
+font-size: 35pt;
+padding: 20px 30px;
+margin: 60px;
+}
+
+.checkmark {
+height:35px;
+width: 35px;
+left:0;   
+}
+
+.containercheck .checkmark:after {
+left: 10px;
+top: 3px;
+width: 10px;
+height: 20px;
+border: solid white;
+border-width: 0 3px 3px 0;
+-webkit-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+
+.box4 {
+height:24vh;
+width:80vw;
+padding-left: 10vw;
+padding-right: 10vw;
+padding-top: 3vh;
+padding-bottom: 3vh;
+}
+
+.box4bild1 {
+height:20vh;
+width:100vw;
+}
+
+.box4bild2 {
+width:100vw;
+height:20vh;
+}
+
+.box4bild3 {
+    height:60vh;
+    width:100vw;
+}
+
+.box2 {
+    height:54vh;
+    width:80vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+#social {
+    height:25pt;
+}
+
+#facebook {
+    height:25pt;
+}
+
+}
