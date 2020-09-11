@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Syne:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a759227025.js" crossorigin="anonymous"></script>
     <title>jenn.letters Handlettering</title>
 </head>
@@ -33,23 +34,27 @@
 
 <!-- Simulate a smartphone / tablet -->
 <div class="mobile-container">
-  <a  href="#"><img id="facebook" src="img/facebook.png"></a>
-  <a  href="#"><img id="social" src="img/instagram.png"></a>
+ 
   <!-- Top Navigation Menu -->
   <div class="topnav">
-    
-    <a href="home.html" class="active">jenn.letters</a>
-    <div id="myLinks">
+    <div class="topnavflex">
+    <a href="home.html" class="active" id="flex">jenn.letters</a>   
+    <a  href="#"><i class="fab fa-facebook-square" id="flex"></i></a>
+    <a  href="#"><i class="fab fa-instagram" id="flex"></i></a>
+  </div>
+    <a id="flex" href="javascript:void(0);" class="icon" onclick="myFunctionNav()" >
+      <div class="burger"></div>
+      <div class="burger"></div>
+      <div class="burger"></div>
+    </a>
+  
+    <div id="myLinks" >
       <a href="home.html" style="background-color:rgb(254, 222, 125);">Startseite</a>
       <a href="uebermich.html">Über mich</a>
       <a href="angebote.html">Portfolio</a>
       <a href="kontakt.html">Kontakt</a>
     </div>
-    <a href="javascript:void(0);" class="icon" onclick="myFunctionNav()">
-      <div class="burger"></div>
-      <div class="burger"></div>
-      <div class="burger"></div>
-    </a>
+   
   </div>
   
   
@@ -64,10 +69,11 @@
 
 
     <div class="inhalt">
+      <div class="abstand"><h1>Handlettering made in Aachen</h1></div>
       <div class="inhaltboxen4">
         <div class="box4bild1"></div>
-        <div class="box4"><h2>Hallo! Ich bin Jenny</h2>Ich bin Jenny aus Aachen. Willkommen auf meiner Handlettering-Seite.<a href="kontakt.html"><br><br><button>Arbeite mit mir</button></a></a></div>
-        <div class="box4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        <div class="box4">Ich bin Jenny Handlettering-Artist aus Aachen. Willkommen auf meiner Homepage.Wenn du möchtest, kann ich etwas für dich beschriften. Nehme dazu einfach über das Kontaktformular Kontakt mit mir auf.<a href="kontakt.html"><br><br><button>Arbeite mit mir</button></a></a></div>
+        <div class="box4"> In meinem <a href="portfolio.html">Portfolio</a> kannst du dir einen Ausschnitt meiner bisherigen Arbeiten ansehen. Oder du schaust dir meine <a href="uebermich.html">Vorstellung</a> an, wenn du mehr über mich und meiner Arbeit erfahren möchtest. </div>
         <div class="box4bild2"></div>
       </div>
         

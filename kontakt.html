@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Syne:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a759227025.js" crossorigin="anonymous"></script>
     <title>jenn.letters Handlettering</title>
 </head>
@@ -29,22 +30,27 @@
 
 <!-- Simulate a smartphone / tablet -->
 <div class="mobile-container">
-
+ 
   <!-- Top Navigation Menu -->
   <div class="topnav">
-    
-    <a href="home.html" class="active">jenn.letters</a>
-    <div id="myLinks">
+    <div class="topnavflex">
+    <a href="home.html" class="active" id="flex">jenn.letters</a>   
+    <a  href="#"><i class="fab fa-facebook-square" id="flex"></i></a>
+    <a  href="#"><i class="fab fa-instagram" id="flex"></i></a>
+  </div>
+    <a id="flex" href="javascript:void(0);" class="icon" onclick="myFunctionNav()" >
+      <div class="burger"></div>
+      <div class="burger"></div>
+      <div class="burger"></div>
+    </a>
+  
+    <div id="myLinks" >
       <a href="home.html" >Startseite</a>
       <a href="uebermich.html">Über mich</a>
       <a href="angebote.html">Portfolio</a>
       <a href="kontakt.html" style="background-color:rgb(254, 222, 125);">Kontakt</a>
     </div>
-    <a href="javascript:void(0);" class="icon" onclick="myFunctionNav()">
-      <div class="burger"></div>
-      <div class="burger"></div>
-      <div class="burger"></div>
-    </a>
+   
   </div>
   
   
@@ -52,7 +58,7 @@
   <!-- End smartphone / tablet look -->
   </div>
    
-    <div class="inhalt"><p><h3>Kontaktformular</h3>
+    <div class="inhalt"><p><h1>Kontaktformular</h1>
       Hier kannst du Kontakt mit mir aufnehmen!
     </p>
     <div class="inhaltboxen">
