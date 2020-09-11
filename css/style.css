@@ -557,11 +557,11 @@ max-height: none;
 }
 
 input[type=text], select, textarea { 
-font-size: 30pt;
+font-size: 20pt;
 }
 
 input[type=submit] {
-font-size: 35pt;
+font-size: 22pt;
 padding: 20px 30px;
 margin: 60px;
 }
