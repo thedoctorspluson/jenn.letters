@@ -368,7 +368,7 @@ h5{
 
   input[type=text], select, textarea {
     font-family: jennysfont;
-    font-variant: small-caps;
+    text-transform:uppercase;
     font-size: 25pt;
     font-weight: bold;
     width: 100%; /* Full width */
@@ -383,7 +383,7 @@ h5{
 
   input[type=submit] {
     font-family: jennysfont;
-    font-variant: small-caps;
+    text-transform:uppercase;
     font-size: 25pt;
     font-weight: bold;
     background-color:rgb(252, 189, 0);
@@ -420,8 +420,10 @@ h5{
 .inhalt a{
     text-decoration:none;
     cursor: pointer;
-    color:rgb(252, 189, 0);
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-decoration:underline;
+    color:black;
+    text-decoration-color:rgb(252, 189, 0);
+    
 }
   button:hover {
     background-color: rgb(254, 222, 125);
