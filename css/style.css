@@ -5,7 +5,7 @@
     position: absolute;
     top: 50px;
     right: 18px;
-    color: rgb(255, 207, 95);
+    color: #e9c47d;
     transform:rotate(285deg);
     font-family: 'Pacifico', cursive;
 }
@@ -17,6 +17,13 @@ body{margin:0px;
     font-size: 16pt;
     
     
+}
+.first-letter
+{
+    font-size: 35px;
+    line-height: 1em;
+    font-family: 'Pacifico', cursive;
+    color: #e9c47d;
 }
 
 h1{
@@ -35,6 +42,7 @@ h2{
     font-weight: bold;
     font-size: 50pt;
     color: rgb(255, 180, 0);
+    color: #e9c47d;
     
     /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 }
@@ -257,6 +265,7 @@ h5{
     padding-right: 5vw;
     padding-top: 5vh;
     padding-bottom: 3vh;
+    text-align:justify;
 }
 .box{
     
@@ -385,7 +394,7 @@ h5{
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -395,6 +404,7 @@ h5{
     font-size: 22pt;
     font-weight: bold;
     background-color:rgb(252, 189, 0);
+    background-color: #e9c47d;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -419,6 +429,7 @@ h5{
     font-size: 22pt;
     font-weight: bold;
     background-color:rgb(252, 189, 0);
+    background-color: #e9c47d;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -432,7 +443,7 @@ h5{
     cursor: pointer;
     text-decoration:underline;
     color:black;
-    text-decoration-color:rgb(252, 189, 0);
+    text-decoration-color: #e9c47d;
     
 }
   button:hover {
